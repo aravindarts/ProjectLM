@@ -49,6 +49,7 @@
 
 	<modules>
 		<module>inventory-control</module>
+		<module>Entities</module>
 	</modules>
 
 
