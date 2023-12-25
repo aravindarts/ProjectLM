@@ -50,7 +50,8 @@
 	<modules>
 		<module>inventory-control</module>
 		<module>Entities</module>
-	</modules>
+        <module>LM-Commons</module>
+    </modules>
 
 
 </project>

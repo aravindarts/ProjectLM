@@ -1,29 +1,26 @@
-package entities;
-
+package com.projectLM.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.*;
-import org.springframework.context.annotation.Primary;
-
-import java.io.Serializable;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @Entity
-@Table
+@Table(name = "units")
 @NoArgsConstructor
 @Getter
 @Setter
 @ToString
-public class Product implements Serializable {
+public class Units {
 
     @Id
     @Column(name = "id")
     private Integer id;
-
-
-
-
+    @Column(name = "name")
+    private String name;
 
 }
